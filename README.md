@@ -1,4 +1,4 @@
-# 使用Selenium & webdriver 自动化测试 WEB
+# 使用Selenium & webdriver 自动化测试 WEB 页面
 软件测试-Lab2
 
 ## SeleniumIDE 安装与使用
@@ -11,28 +11,41 @@
 ### 使用SeleniumIDE录制和导出脚本
 
 1.	打开插件SeleniumIDE,访问网址 [https://psych.liebes.top/st](https://psych.liebes.top/st)
-2.	开始录制
+
+2.	开始录制  
+
     ![](./img/seleniumIDE.png)
-3.	导出测试用例代码
+
+3.	导出测试用例代码  
+
     - 文件
+
     - Export Test Case As…
-    - Java/Junit4/WebDriver
+
+    - Java/Junit4/WebDriver   
+
     ![](./img/exportCase.png)
 
 ## 新建Java工程进行测试
 
 1.	下载 [Selenium Java](http://selenium-release.storage.googleapis.com/index.html?path=2.53/)
+
 2.	新建Java项目
+
 3.	导入 Selenium Java 的jar包
+
 4.	下载 [jxl](http://maven.ibiblio.org/maven2/net/sourceforge/jexcelapi/jxl/) (读取表格数据的jar包) 并导入
+
 5.	导入 hamcrest。
 
 ### 导入 jar 包的方法：  
 
 1.  
+
 ![./img/buildpath.png](./img/buildpath.png)  
 
 2.  
+
 ![](./img/addjars.png)
 
 ## 根据导出的TestCase 编写代码
