@@ -1,5 +1,6 @@
 # 使用Selenium & webdriver 自动化测试 WEB 页面
-软件测试-Lab2
+
+[软件测试-Lab2](https://github.com/sunxiaofeiT/lab2)
 
 ## SeleniumIDE 安装与使用
 
